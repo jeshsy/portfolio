@@ -1,0 +1,94 @@
+.App {
+  background-color: #190c26;
+  color: #FEFCD7
+}
+
+nav {
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  background-color: #FEFCD7;
+}
+nav a {
+  color: black;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 3%;
+}
+
+a {
+  color: #FEFCD7;
+}
+
+/*a:visited {
+  color: orange;
+}*/
+
+.intro {
+  padding-top: 45vh;
+  padding-bottom: 45vh;
+  background-image: url("./images/yellowMoon.jpg");
+  font-size: 400%;
+}
+
+.work {
+  padding-top:5vh;
+  padding-bottom: 20vh;
+  background-image: url("./images/astronautSurface.jpg");
+  background-size: 125%;
+  margin: 0;  
+}
+
+.project-pic {
+  width: 100%;
+  height: 100%;
+}
+
+.yellowFont {
+  color: yellow;
+}
+
+.workExample {
+  border: 1px solid yellow;
+  height: 256px;
+  width: 256px;
+  margin: 40px 100px;
+  padding: 20px;
+  font-weight: bold;
+  display: inline-block;
+  background-image: url("./images/fuzzyClock.png");
+  background-size: 100% 100%;  
+  background-repeat: no-repeat;
+  color: yellow;
+}
+
+.workExample:hover {
+  -webkit-transform: translate(2px, 1px) rotate(0deg);
+}
+
+#projects {
+  align-items: center;
+}
+
+.contact {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  background-image: url("./images/nightStars.jpg");
+}
+
+.contact-details {
+  margin-right: 20%;
+}
+
+.contactContainer {
+  text-align: center;
+}
+
+#feedbackBox {
+  height: 10vh;
+  width: 50%;
+  box-sizing: border-box;
+  resize: none;
+}
